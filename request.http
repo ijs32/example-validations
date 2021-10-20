@@ -1,0 +1,17 @@
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "first_name": "steve",
+  "last_name": "jobs",
+  "email": "stevejobsyahoo.com"
+}
+
+###
+
+PATCH http://localhost:3000/users/2.json
+Content-Type: application/json
+
+{
+  
+}
